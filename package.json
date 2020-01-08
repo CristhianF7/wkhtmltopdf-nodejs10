@@ -1,0 +1,15 @@
+{
+  "name": "wkhtmltopdf-nodejs10",
+  "version": "1.0.0",
+  "description": "Wrapper for wkhtmltodpf using AWS Lambda for NodeJS10",
+  "main": "index.js",
+  "repository": "https://github.com/CristhianF7/wkhtmltopdf-nodejs10.git",
+  "author": "CristhianF7",
+  "license": "MIT",
+  "dependencies": {
+    "wkhtmltopdf": "^0.3.4"
+  },
+  "scripts": {
+    "build": "./scripts/deploy.sh"
+  }
+}
